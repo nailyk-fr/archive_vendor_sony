@@ -59,3 +59,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/sony/shinano-common/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
+
+#addons for ccamera: 
+PRODUCT_COPY_FILES += \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+	vendor/sony/shinano-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
+	vendor/sony/shinano-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so
