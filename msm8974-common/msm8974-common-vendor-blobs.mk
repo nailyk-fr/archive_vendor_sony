@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8974-common/proprietary/vendor/bin/sct_service:system/vendor/bin/sct_service \
     vendor/sony/msm8974-common/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/sony/msm8974-common/proprietary/vendor/bin/ta_qmi_service:system/vendor/bin/ta_qmi_service \
-    vendor/sony/msm8974-common/proprietary/vendor/bin/tad_static:system/vendor/bin/tad_static \
     vendor/sony/msm8974-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -86,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/sony/msm8974-common/proprietary/vendor/lib/libmiscta.so:system/vendor/lib/libmiscta.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -192,3 +190,27 @@ PRODUCT_COPY_FILES += \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/sony/msm8974-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
+
+
+PRODUCT_COPY_FILES += \
+	vendor/sony/msm8974-common/proprietary/bin/credmgrd:system/bin/credmgrd \
+	vendor/sony/msm8974-common/proprietary/bin/idd-logreader:system/bin/idd-logreader \
+	vendor/sony/msm8974-common/proprietary/bin/iddd:system/bin/iddd \
+	vendor/sony/msm8974-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+	vendor/sony/msm8974-common/proprietary/bin/suntrold:system/bin/suntrold \
+	vendor/sony/msm8974-common/proprietary/bin/tad_static:system/bin/tad_static \
+	vendor/sony/msm8974-common/proprietary/bin/wait4tad_static:system/bin/wait4tad_static \
+	vendor/sony/msm8974-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
+	vendor/sony/msm8974-common/proprietary/lib/lib_extended_boot_lock.so:system/lib/lib_extended_boot_lock.so \
+	vendor/sony/msm8974-common/proprietary/lib/lib_get_hwc_revision.so:system/lib/lib_get_hwc_revision.so \
+	vendor/sony/msm8974-common/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
+	vendor/sony/msm8974-common/proprietary/lib/lib_get_s1_cert_common_name.so:system/lib/lib_get_s1_cert_common_name.so \
+	vendor/sony/msm8974-common/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
+	vendor/sony/msm8974-common/proprietary/lib/lib_s1_verification.so:system/lib/lib_s1_verification.so \
+	vendor/sony/msm8974-common/proprietary/lib/lib_uncontrolled_rooting_status.so:system/lib/lib_uncontrolled_rooting_status.so \
+	vendor/sony/msm8974-common/proprietary/lib/libidd.so:system/lib/libidd.so \
+	vendor/sony/msm8974-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
+	vendor/sony/msm8974-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+	vendor/sony/msm8974-common/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
+	vendor/sony/msm8974-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+	vendor/sony/msm8974-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so

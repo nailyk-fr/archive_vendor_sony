@@ -64,5 +64,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-	vendor/sony/shinano-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-	vendor/sony/shinano-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so
