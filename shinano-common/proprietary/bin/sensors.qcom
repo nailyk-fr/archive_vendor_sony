@@ -1,0 +1,2 @@
+#/bin/sh
+/system/bin/logwrapper /system/xbin/strace /system/bin/sensors.qcom.bin -f -o /tmp/sens
