@@ -91,9 +91,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b00:system/etc/firmware/tzlibasb.b00 \
 	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b24:system/etc/firmware/modem.b24 \
 	vendor/sony/shinano-common/proprietary/etc/firmware/touch_module_id_0x80.img:system/etc/firmware/touch_module_id_0x80.img \
-	vendor/sony/shinano-common/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
-	vendor/sony/shinano-common/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
-	vendor/sony/shinano-common/proprietary/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
 	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b07:system/etc/firmware/adsp.b07 \
 	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
 	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
