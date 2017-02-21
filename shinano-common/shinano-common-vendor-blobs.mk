@@ -130,10 +130,10 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
 	vendor/sony/shinano-common/proprietary/etc/firmware/tzwidevine.b00:system/etc/firmware/tzwidevine.b00 \
 	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b22:system/etc/firmware/modem.b22 \
-	vendor/sony/shinano-common/proprietary/usr/idc/idc/qwerty.idc:system/usr/idc/idc/qwerty.idc \
-	vendor/sony/shinano-common/proprietary/usr/idc/idc/AVRCP.idc:system/usr/idc/idc/AVRCP.idc \
-	vendor/sony/shinano-common/proprietary/usr/idc/idc/qwerty2.idc:system/usr/idc/idc/qwerty2.idc \
-	vendor/sony/shinano-common/proprietary/usr/idc/idc/clearpad.idc:system/usr/idc/idc/clearpad.idc \
+	vendor/sony/shinano-common/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
+	vendor/sony/shinano-common/proprietary/usr/idc/AVRCP.idc:system/usr/idc/AVRCP.idc \
+	vendor/sony/shinano-common/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
+	vendor/sony/shinano-common/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
 	vendor/sony/shinano-common/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
 	vendor/sony/shinano-common/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
 	vendor/sony/shinano-common/proprietary/lib/libcacao_common.so:system/lib/libcacao_common.so \
