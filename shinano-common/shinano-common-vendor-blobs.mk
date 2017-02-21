@@ -198,27 +198,26 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/lib/libidd.so:system/lib/libidd.so \
 	vendor/sony/shinano-common/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
 	vendor/sony/shinano-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/bluetooth.default.so:system/lib/hw/camera.qcom.so/bluetooth.default.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/audio.primary.default.so:system/lib/hw/camera.qcom.so/audio.primary.default.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/gralloc.default.so:system/lib/hw/camera.qcom.so/gralloc.default.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/keystore.default.so:system/lib/hw/camera.qcom.so/keystore.default.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/audio_policy.default.so:system/lib/hw/camera.qcom.so/audio_policy.default.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/camera.default.so:system/lib/hw/camera.qcom.so/camera.default.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/camera.qcom.so:system/lib/hw/camera.qcom.so/camera.qcom.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/audio.usb.default.so:system/lib/hw/camera.qcom.so/audio.usb.default.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/audio.a2dp.default.so:system/lib/hw/camera.qcom.so/audio.a2dp.default.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/keystore.msm8974.so:system/lib/hw/camera.qcom.so/keystore.msm8974.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/nfc_nci.pn54x.default.so:system/lib/hw/camera.qcom.so/nfc_nci.pn54x.default.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/memtrack.msm8974.so:system/lib/hw/camera.qcom.so/memtrack.msm8974.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/audio.primary.msm8974.so:system/lib/hw/camera.qcom.so/audio.primary.msm8974.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/vibrator.default.so:system/lib/hw/camera.qcom.so/vibrator.default.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/hwcomposer.msm8974.so:system/lib/hw/camera.qcom.so/hwcomposer.msm8974.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/lights.msm8974.so:system/lib/hw/camera.qcom.so/lights.msm8974.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/gps.msm8974.so:system/lib/hw/camera.qcom.so/gps.msm8974.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/gralloc.msm8974.so:system/lib/hw/camera.qcom.so/gralloc.msm8974.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/local_time.default.so:system/lib/hw/camera.qcom.so/local_time.default.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/audio.r_submix.default.so:system/lib/hw/camera.qcom.so/audio.r_submix.default.so \
-	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so/power.default.so:system/lib/hw/camera.qcom.so/power.default.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/keystore.msm8974.so:system/lib/hw/keystore.msm8974.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/memtrack.msm8974.so:system/lib/hw/memtrack.msm8974.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/hwcomposer.msm8974.so:system/lib/hw/hwcomposer.msm8974.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/lights.msm8974.so:system/lib/hw/lights.msm8974.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/gralloc.msm8974.so:system/lib/hw/gralloc.msm8974.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+	vendor/sony/shinano-common/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
 	vendor/sony/shinano-common/proprietary/lib/hw/lights.msm8974.so:system/lib/hw/lights.msm8974.so \
 	vendor/sony/shinano-common/proprietary/lib/libcacao_service.so:system/lib/libcacao_service.so \
 	vendor/sony/shinano-common/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
