@@ -530,5 +530,9 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.flist:system/vendor/firmware/keymaster/keymaster.flist \
 	vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
 	vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-	vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00
+	vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+	vendor/sony/shinano-common/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
+	vendor/sony/shinano-common/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
+	vendor/sony/shinano-common/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
+	vendor/sony/shinano-common/proprietary/lib/libcald_util.so:system/lib/libcald_util.so
 
