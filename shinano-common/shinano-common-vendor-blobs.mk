@@ -521,3 +521,5 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
 	vendor/sony/shinano-common/proprietary/vendor/camera/SOI20BS0_BU64296GWX.dat:system/vendor/camera/SOI20BS0_BU64296GWX.dat \
 	vendor/sony/shinano-common/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
+	vendor/sony/shinano-common/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
+	vendor/sony/shinano-common/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin
