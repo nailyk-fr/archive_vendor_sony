@@ -119,5 +119,5 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/z3c/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
 	vendor/sony/z3c/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
 	vendor/sony/z3c/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
-	vendor/sony/z3c/proprietary/usr/idc/AVRCP.idc:system/usr/idc/AVRCP.idc \
+	vendor/sony/z3c/proprietary/usr/idc/AVRCP.idc:system/usr/idc/AVRCP.idc
 
