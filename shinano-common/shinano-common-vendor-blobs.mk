@@ -534,4 +534,31 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
+	vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+	vendor/sony/shinano-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+	vendor/sony/shinano-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+	vendor/sony/shinano-common/proprietary/bin/netmgrd:system/bin/netmgrd \
+	vendor/sony/shinano-common/proprietary/bin/qmuxd:system/bin/qmuxd \
+	vendor/sony/shinano-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+	vendor/sony/shinano-common/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
+	vendor/sony/shinano-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+	vendor/sony/shinano-common/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
+	vendor/sony/shinano-common/proprietary/lib/libxml2.so:system/lib/libxml2.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so 
+
+	
