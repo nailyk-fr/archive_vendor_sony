@@ -36,21 +36,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b03:system/etc/firmware/adsp.b03 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b04:system/etc/firmware/adsp.b04 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b05:system/etc/firmware/adsp.b05 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b06:system/etc/firmware/adsp.b06 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b07:system/etc/firmware/adsp.b07 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b08:system/etc/firmware/adsp.b08 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b09:system/etc/firmware/adsp.b09 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b10:system/etc/firmware/adsp.b10 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
-	vendor/sony/shinano-common/proprietary/etc/firmware/BCM43xx.hcd:system/etc/firmware/BCM43xx.hcd \
 	vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
 	vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
 	vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
@@ -62,29 +47,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
 	vendor/sony/shinano-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
 	vendor/sony/shinano-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-	vendor/sony/shinano-common/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b08:system/etc/firmware/modem.b08 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b09:system/etc/firmware/modem.b09 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b11:system/etc/firmware/modem.b11 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b12:system/etc/firmware/modem.b12 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b13:system/etc/firmware/modem.b13 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b14:system/etc/firmware/modem.b14 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b15:system/etc/firmware/modem.b15 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b16:system/etc/firmware/modem.b16 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b17:system/etc/firmware/modem.b17 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b18:system/etc/firmware/modem.b18 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b19:system/etc/firmware/modem.b19 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b22:system/etc/firmware/modem.b22 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b23:system/etc/firmware/modem.b23 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b24:system/etc/firmware/modem.b24 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.b25:system/etc/firmware/modem.b25 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
 	vendor/sony/shinano-common/proprietary/etc/firmware/touch_module_id_0x50.img:system/etc/firmware/touch_module_id_0x50.img \
 	vendor/sony/shinano-common/proprietary/etc/firmware/touch_module_id_0x74.img:system/etc/firmware/touch_module_id_0x74.img \
 	vendor/sony/shinano-common/proprietary/etc/firmware/touch_module_id_0x75.img:system/etc/firmware/touch_module_id_0x75.img \
@@ -100,12 +62,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/etc/firmware/touch_module_id_0x81.img:system/etc/firmware/touch_module_id_0x81.img \
 	vendor/sony/shinano-common/proprietary/etc/firmware/touch_module_id_0x95.img:system/etc/firmware/touch_module_id_0x95.img \
 	vendor/sony/shinano-common/proprietary/etc/firmware/touch_module_id_0x96.img:system/etc/firmware/touch_module_id_0x96.img \
-	vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b00:system/etc/firmware/tzhdcp.b00 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b01:system/etc/firmware/tzhdcp.b01 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
-	vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.flist:system/etc/firmware/tzhdcp.flist \
-	vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
 	vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b00:system/etc/firmware/tzlibasb.b00 \
 	vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b01:system/etc/firmware/tzlibasb.b01 \
 	vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b02:system/etc/firmware/tzlibasb.b02 \
@@ -226,10 +182,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/lib/lib_uncontrolled_rooting_status.so:system/lib/lib_uncontrolled_rooting_status.so \
 	vendor/sony/shinano-common/proprietary/sbin/tad_static:system/sbin/tad_static \
 	vendor/sony/shinano-common/proprietary/sbin/wait4tad_static:system/sbin/wait4tad_static \
-	vendor/sony/shinano-common/proprietary/usr/idc/AVRCP.idc:system/usr/idc/AVRCP.idc \
-	vendor/sony/shinano-common/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-	vendor/sony/shinano-common/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
-	vendor/sony/shinano-common/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
 	vendor/sony/shinano-common/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
 	vendor/sony/shinano-common/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
 	vendor/sony/shinano-common/proprietary/vendor/camera/LGI02BN1/cam_ctrl.dat:system/vendor/camera/LGI02BN1/cam_ctrl.dat \
