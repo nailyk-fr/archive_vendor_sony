@@ -492,7 +492,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
 	vendor/sony/shinano-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
 	vendor/sony/shinano-common/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
-	vendor/sony/shinano-common/proprietary/lib/libxml2.so:system/lib/libxml2.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
