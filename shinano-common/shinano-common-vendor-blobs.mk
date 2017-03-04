@@ -507,6 +507,49 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
 	vendor/sony/shinano-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-	vendor/sony/shinano-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so 
+	vendor/sony/shinano-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+	vendor/sony/shinano-common/proprietary/bin/imscmservice:system/bin/imscmservice \
+	vendor/sony/shinano-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+	vendor/sony/shinano-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+	vendor/sony/shinano-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so
+
 
 	
