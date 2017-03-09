@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+#      http:/www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -172,3 +172,35 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/sirius/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
 	vendor/sony/sirius/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
 	vendor/sony/sirius/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc
+
+#and by cat /tmp/list | sed 's,sirius/proprietary,,g' | awk '{ print "\tvendor/sony/sirius/"$0":system/"$0" \\"}'
+
+PRODUCT_COPY_FILES += \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/cam_ctrl.dat:system/vendor/camera/SOI20BS0/cam_ctrl.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/cap_ctrl.dat:system/vendor/camera/SOI20BS0/cap_ctrl.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/chokoball.dat:system/vendor/camera/SOI20BS0/chokoball.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/color_ctrl.dat:system/vendor/camera/SOI20BS0/color_ctrl.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/dataflow.dat:system/vendor/camera/SOI20BS0/dataflow.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/debug_mgr.dat:system/vendor/camera/SOI20BS0/debug_mgr.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/exposure_ctrl.dat:system/vendor/camera/SOI20BS0/exposure_ctrl.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/face_detector.dat:system/vendor/camera/SOI20BS0/face_detector.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/flicker_detector.dat:system/vendor/camera/SOI20BS0/flicker_detector.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/focus_stats_conv.dat:system/vendor/camera/SOI20BS0/focus_stats_conv.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/hal_ctrl.dat:system/vendor/camera/SOI20BS0/hal_ctrl.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/hal_ctrl_platform.dat:system/vendor/camera/SOI20BS0/hal_ctrl_platform.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/hdr_comp.dat:system/vendor/camera/SOI20BS0/hdr_comp.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/idt_ctrl.dat:system/vendor/camera/SOI20BS0/idt_ctrl.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/image_conv.dat:system/vendor/camera/SOI20BS0/image_conv.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/imgproc.dat:system/vendor/camera/SOI20BS0/imgproc.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/jpeg_enc.dat:system/vendor/camera/SOI20BS0/jpeg_enc.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/lens_ctrl.dat:system/vendor/camera/SOI20BS0/lens_ctrl.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/module.dat:system/vendor/camera/SOI20BS0/module.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/motion_estimation.dat:system/vendor/camera/SOI20BS0/motion_estimation.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/multiframe_nr.dat:system/vendor/camera/SOI20BS0/multiframe_nr.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/object_tracker.dat:system/vendor/camera/SOI20BS0/object_tracker.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/scene_detector.dat:system/vendor/camera/SOI20BS0/scene_detector.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/snapshot_ctrl.dat:system/vendor/camera/SOI20BS0/snapshot_ctrl.dat \
+        vendor/sony/sirius/vendor/camera/SOI20BS0/streaming_ctrl.dat:system/vendor/camera/SOI20BS0/streaming_ctrl.dat \
+        vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0_BU64296GWX.dat:system/vendor/camera/SOI20BS0_BU64296GWX.dat \
+        vendor/sony/sirius/proprietary/vendor/camera/SOI20BS0_IMX200.dat:system/vendor/camera/SOI20BS0_IMX200.dat
+
