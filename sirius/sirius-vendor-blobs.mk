@@ -172,7 +172,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/sirius/proprietary/usr/idc/AVRCP.idc:system/usr/idc/AVRCP.idc \
 	vendor/sony/sirius/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
 	vendor/sony/sirius/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
-	vendor/sony/sirius/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc
+	vendor/sony/sirius/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
     vendor/sony/sirius/vendor/camera/SOI20BS0/cam_ctrl.dat:system/vendor/camera/SOI20BS0/cam_ctrl.dat \
     vendor/sony/sirius/vendor/camera/SOI20BS0/cap_ctrl.dat:system/vendor/camera/SOI20BS0/cap_ctrl.dat \
     vendor/sony/sirius/vendor/camera/SOI20BS0/chokoball.dat:system/vendor/camera/SOI20BS0/chokoball.dat \
