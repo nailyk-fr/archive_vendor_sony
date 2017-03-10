@@ -64,7 +64,3 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/z3/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
 	vendor/sony/z3/proprietary/usr/idc/AVRCP.idc:system/usr/idc/AVRCP.idc \
 	vendor/sony/z3/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
-	vendor/sony/z3/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-	vendor/sony/z3/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml
-
-
