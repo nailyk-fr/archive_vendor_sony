@@ -94,9 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
     vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
     vendor/sony/castor_windy/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
-    vendor/sony/castor_windy/proprietary/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
-    vendor/sony/castor_windy/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
-    vendor/sony/castor_windy/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/castor_windy/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/sony/castor_windy/proprietary/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     vendor/sony/castor_windy/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
@@ -137,18 +134,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor_windy/proprietary/vendor/camera/LGI02BN1_IMX132.dat:system/vendor/camera/LGI02BN1_IMX132.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/SEM02BN1_IMX132.dat:system/vendor/camera/SEM02BN1_IMX132.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/SOI08BS2_BU64291GWZ.dat:system/vendor/camera/SOI08BS2_BU64291GWZ.dat \
-    vendor/sony/castor_windy/proprietary/vendor/camera/SOI08BS2_CACAO.dat:system/vendor/camera/SOI08BS2_CACAO.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/SOI08BS2_IMX134.dat:system/vendor/camera/SOI08BS2_IMX134.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/castor_windy/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
     vendor/sony/castor_windy/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    vendor/sony/castor_windy/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/sony/castor_windy/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/sony/castor_windy/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/sony/castor_windy/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/sony/castor_windy/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
-    vendor/sony/castor_windy/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/sony/castor_windy/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/sony/castor_windy/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so
