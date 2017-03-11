@@ -196,7 +196,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
 	vendor/sony/shinano-common/proprietary/lib/libsoundtriggerservice.so:system/lib/libsoundtriggerservice.so \
 	vendor/sony/shinano-common/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
-	vendor/sony/shinano-common/proprietary/lib/libta.so:system/lib/libta.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libta.so:system/vendor/lib/libta.so \
 	vendor/sony/shinano-common/proprietary/lib/lib_uncontrolled_rooting_status.so:system/lib/lib_uncontrolled_rooting_status.so \
 	vendor/sony/shinano-common/proprietary/sbin/tad_static:system/sbin/tad_static \
 	vendor/sony/shinano-common/proprietary/sbin/wait4tad_static:system/sbin/wait4tad_static \
