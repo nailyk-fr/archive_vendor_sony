@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/bin/suntrold:system/bin/suntrold \
 	vendor/sony/shinano-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
 	vendor/sony/shinano-common/proprietary/bin/wvkbd:system/bin/wvkbd \
+	vendor/sony/shinano-common/proprietary/bin/tad_static:system/bin/tad_static \
+	vendor/sony/shinano-common/proprietary/bin/wait4tad_static:system/bin/wait4tad_static \
+	vendor/sony/shinano-common/proprietary/bin/taimport:system/bin/taimport \
+	vendor/sony/shinano-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
 	vendor/sony/shinano-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
 	vendor/sony/shinano-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
 	vendor/sony/shinano-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
@@ -176,10 +180,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/lib/libsomc_chokoballpal.so:system/lib/libsomc_chokoballpal.so \
 	vendor/sony/shinano-common/proprietary/lib/libsony_chokoballrsc.so:system/lib/libsony_chokoballrsc.so \
 	vendor/sony/shinano-common/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
-	vendor/sony/shinano-common/proprietary/lib/libta.so:system/lib/libta.so \
+	vendor/sony/shinano-common/proprietary/vendor/lib/libta.so:system/vendor/lib/libta.so \
 	vendor/sony/shinano-common/proprietary/lib/lib_uncontrolled_rooting_status.so:system/lib/lib_uncontrolled_rooting_status.so \
-	vendor/sony/shinano-common/proprietary/sbin/tad_static:system/sbin/tad_static \
-	vendor/sony/shinano-common/proprietary/sbin/wait4tad_static:system/sbin/wait4tad_static \
 	vendor/sony/shinano-common/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
 	vendor/sony/shinano-common/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
 	vendor/sony/shinano-common/proprietary/vendor/camera/LGI02BN1/cam_ctrl.dat:system/vendor/camera/LGI02BN1/cam_ctrl.dat \
