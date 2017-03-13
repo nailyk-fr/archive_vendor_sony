@@ -56,5 +56,86 @@ LOCAL_MODULE_TAGS   := optional
 LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi_cci
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_cci.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi_client_helper
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_client_helper.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi_client_qmux
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_client_qmux.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi_common_so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_common_so.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi_csi
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_csi.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi_encdec
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_encdec.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmiservices
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmiservices.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libdsi_netctrl
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := proprietary/vendor/lib/libdsi_netctrl.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+
 endif
 endif
