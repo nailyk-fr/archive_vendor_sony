@@ -63,4 +63,34 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/z3/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
 	vendor/sony/z3/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
 	vendor/sony/z3/proprietary/usr/idc/AVRCP.idc:system/usr/idc/AVRCP.idc \
-	vendor/sony/z3/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
+	vendor/sony/z3/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
+
+PRODUCT_COPY_FILES += \
+	vendor/sony/z3/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Sony/Sony_Bluetooth_cal.acdb:system/etc/acdbdata/Sony/Sony_Bluetooth_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Sony/Sony_General_cal.acdb:system/etc/acdbdata/Sony/Sony_General_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Sony/Sony_Global_cal.acdb:system/etc/acdbdata/Sony/Sony_Global_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Sony/Sony_Handset_cal.acdb:system/etc/acdbdata/Sony/Sony_Handset_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb:system/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Sony/Sony_Headset_cal.acdb:system/etc/acdbdata/Sony/Sony_Headset_cal.acdb \
+	vendor/sony/z3/proprietary/etc/acdbdata/Sony/Sony_Speaker_cal.acdb:system/etc/acdbdata/Sony/Sony_Speaker_cal.acdb \
