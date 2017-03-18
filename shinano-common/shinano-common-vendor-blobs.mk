@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
 	vendor/sony/shinano-common/proprietary/bin/suntrold:system/bin/suntrold \
 	vendor/sony/shinano-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
+	vendor/sony/shinano-common/proprietary/bin/taimport:system/bin/taimport \
 	vendor/sony/shinano-common/proprietary/bin/wvkbd:system/bin/wvkbd \
 	vendor/sony/shinano-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
