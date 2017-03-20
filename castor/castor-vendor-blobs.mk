@@ -69,3 +69,35 @@ PRODUCT_COPY_FILES += \
     vendor/sony/castor/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/sony/castor/proprietary/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/castor/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc
+
+# Camera specific files
+PRODUCT_COPY_FILES += \
+	vendor/sony/castor/proprietary/vendor/camera/product_CACAO.dat:system/vendor/camera/product_CACAO.dat \
+	vendor/sony/castor/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2_BU64291GWZ.dat:system/vendor/camera/SOI08BS2_BU64291GWZ.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/cam_ctrl.dat:system/vendor/camera/SOI08BS2/cam_ctrl.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/cap_ctrl.dat:system/vendor/camera/SOI08BS2/cap_ctrl.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/chokoball.dat:system/vendor/camera/SOI08BS2/chokoball.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/color_ctrl.dat:system/vendor/camera/SOI08BS2/color_ctrl.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/dataflow.dat:system/vendor/camera/SOI08BS2/dataflow.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/debug_mgr.dat:system/vendor/camera/SOI08BS2/debug_mgr.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/exposure_ctrl.dat:system/vendor/camera/SOI08BS2/exposure_ctrl.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/face_detector.dat:system/vendor/camera/SOI08BS2/face_detector.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/flicker_detector.dat:system/vendor/camera/SOI08BS2/flicker_detector.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/focus_stats_conv.dat:system/vendor/camera/SOI08BS2/focus_stats_conv.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/hal_ctrl.dat:system/vendor/camera/SOI08BS2/hal_ctrl.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/hal_ctrl_platform.dat:system/vendor/camera/SOI08BS2/hal_ctrl_platform.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/hdr_comp.dat:system/vendor/camera/SOI08BS2/hdr_comp.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/idt_ctrl.dat:system/vendor/camera/SOI08BS2/idt_ctrl.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/image_conv.dat:system/vendor/camera/SOI08BS2/image_conv.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/imgproc.dat:system/vendor/camera/SOI08BS2/imgproc.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2_IMX134.dat:system/vendor/camera/SOI08BS2_IMX134.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/jpeg_enc.dat:system/vendor/camera/SOI08BS2/jpeg_enc.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/lens_ctrl.dat:system/vendor/camera/SOI08BS2/lens_ctrl.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/module.dat:system/vendor/camera/SOI08BS2/module.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/motion_estimation.dat:system/vendor/camera/SOI08BS2/motion_estimation.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/multiframe_nr.dat:system/vendor/camera/SOI08BS2/multiframe_nr.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/object_tracker.dat:system/vendor/camera/SOI08BS2/object_tracker.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/scene_detector.dat:system/vendor/camera/SOI08BS2/scene_detector.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/snapshot_ctrl.dat:system/vendor/camera/SOI08BS2/snapshot_ctrl.dat \
+	vendor/sony/castor/proprietary/vendor/camera/SOI08BS2/streaming_ctrl.dat:system/vendor/camera/SOI08BS2/streaming_ctrl.dat \
